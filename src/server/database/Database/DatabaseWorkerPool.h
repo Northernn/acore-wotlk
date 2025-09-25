@@ -30,13 +30,13 @@
 * @def MIN_MYSQL_CLIENT_VERSION
 * The minimum MySQL Client Version
 */
-#define MIN_MYSQL_CLIENT_VERSION 80000u
+#define MIN_MYSQL_CLIENT_VERSION 30000u
 
 /**
 * @def MIN_MYSQL_SERVER_VERSION
 * The minimum MySQL Server Version
 */
-#define MIN_MYSQL_SERVER_VERSION "8.0.0"
+#define MIN_MYSQL_SERVER_VERSION "3.0.0"
 
 template <typename T>
 class ProducerConsumerQueue;
